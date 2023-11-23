@@ -16,7 +16,7 @@ context('Verificar a funcionalidade de cadastro de cupons', () => {
         cy.addCoupons(cod, "10.00", "percent", desc)
         .then((response) => {
             expect(response.status).to.equal(201)
-            //expect(response.body.message).to.equal("Cupom cadastrado com sucesso")
+            
 
         })
     })
